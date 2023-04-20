@@ -1,5 +1,5 @@
-import express from "express";
-import { UserHandler } from "../../handlers/user";
+import express from 'express';
+import { UserHandler } from '../../handlers/user';
 
 const userMethod = new UserHandler();
 
