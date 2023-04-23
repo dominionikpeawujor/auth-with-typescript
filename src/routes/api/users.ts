@@ -5,6 +5,6 @@ const userMethod = new UserHandler();
 
 const users = express.Router();
 
-users.post('/', userMethod.create);
+users.post('/register', userMethod.create);
 
 export default users;
